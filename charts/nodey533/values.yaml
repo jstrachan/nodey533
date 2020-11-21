@@ -3,6 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
+  digest: dockerfile:///
+  useDigest: true
   repository: draft
   tag: dev
   pullPolicy: IfNotPresent

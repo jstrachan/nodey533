@@ -1,0 +1,11 @@
+as: tekton-bot
+
+git-url: https://github.com/jstrachan/nodey533.git
+
+git-verbose: true
+
+filename:
+- ./charts/nodey533/values.yaml
+
+image: gcr.io/jenkins-x-labs-bdd/helloworld-go
+
