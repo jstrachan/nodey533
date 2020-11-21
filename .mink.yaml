@@ -7,5 +7,5 @@ git-verbose: true
 filename:
 - ./charts/nodey533/values.yaml
 
-image: gcr.io/jenkins-x-labs-bdd/helloworld-go
+image: gcr.io/jenkins-x-labs-bdd/nodey533
 
