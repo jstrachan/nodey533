@@ -49,7 +49,7 @@ spec:
             #!/bin/sh
             echo "running mink"
             source /workspace/source/.jx/variables.sh
-            mink resolve -O .
+            /ko-app/mink resolve -O .
             echo minked
         - image: gcr.io/jenkinsxio/jx-preview:0.0.122
           name: promote-jx-preview
