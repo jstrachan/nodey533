@@ -72,6 +72,7 @@ spec:
           resources: {}
           script: |
             #!/usr/bin/env bash
+            source .jx/variables.sh
             jx step tag --version $VERSION
         - image: gcr.io/jenkinsxio/builder-go:2.1.142-761
           name: promote-changelog
