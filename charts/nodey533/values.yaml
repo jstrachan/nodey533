@@ -5,8 +5,8 @@ replicaCount: 1
 image:
   digest: dockerfile:///
   useDigest: true
-  repository: draft
-  tag: dev
+  repository: gcr.io/jenkins-x-labs-bdd/nodey533
+  tag: 1.0.3
   pullPolicy: IfNotPresent
 
 # optional list of image pull secrets to use to pull images
