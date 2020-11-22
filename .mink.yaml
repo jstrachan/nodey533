@@ -1,11 +1,4 @@
-as: tekton-bot
-
-git-url: https://github.com/jstrachan/nodey533.git
-
-git-verbose: true
-
+# the files containing a mink image build URI such as dockerfile:/// ko:/// or buildpack:///
 filename:
 - ./charts/nodey533/values.yaml
-
-image: gcr.io/jenkins-x-labs-bdd/nodey533
 
