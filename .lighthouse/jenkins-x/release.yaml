@@ -70,6 +70,7 @@ spec:
             export MINK_GIT_URL=$REPO_URL
             export MINK_IMAGE=$DOCKER_REGISTRY/$DOCKER_REGISTRY_ORG/$APP_NAME:$VERSION
             export MINK_KANIKO_ARGS=$KANIKO_FLAGS
+            echo "creating image $MINK_IMAGE"
             /ko-app/mink resolve -O .
         - image: gcr.io/jenkinsxio/builder-go:2.1.142-761
           name: promote-changelog
